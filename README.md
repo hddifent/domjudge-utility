@@ -6,7 +6,7 @@ ___
 
 ## Accounts and Teams generation
 
-1. Go to *usergen* folder and copy the text file including the team names into the folder, separated by new line characters.
+1. Go to [domjudge_usergen](./domjudge_usergen/) folder and copy the text file including the team names into the folder, separated by new line characters.
 2. Run `domjudge_usergen.sh` with the following options:
   - `-f`: Team names file.
   - `-c` (optional): Team's category ID. (default is `7`)
@@ -34,7 +34,7 @@ ___
 
 ## Problem Archives generation
 
-1. Go to `problem` folder and copy the problem text (PDF file) into the folder.
+1. Go to [domjudge_problem](./domjudge_problem/) folder and copy the problem text (PDF file) into the folder.
 2. Run `domjudge_problem.sh` with the following arguments:
   - `<problem_name>`: Full name of the problem. e.g. `Bribery on the Nth Street`
   - `<mem_limit>`: Problem's memory limit. (in MB)
