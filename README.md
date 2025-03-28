@@ -27,6 +27,8 @@ Outputs are generated in a folder named `usergen_<date>_<time>`. The contents ar
 ./domjudge_usergen.sh -f all_user.txt -c 10 -l 12 -p participant_ -o 40
 ```
 
+Additional information on teams and accounts importing can be found in [domjudge-team-user-import.md](./domjudge-team-user-import.md)
+
 ___
 
 
