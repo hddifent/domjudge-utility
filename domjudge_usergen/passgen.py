@@ -20,6 +20,7 @@ pass_out_file = open(filename, "w")
 
 for i in range(pass_amt):
     choosing = [chars[i] for i in random.sample(population=range(len(chars)), k=pass_len)]
-    pass_out_file.write(f"{'\n' if i != 0 else ''}{''.join(choosing)}")
+    if i != 0: pass_out_file.write("\n")
+    pass_out_file.write(f"{''.join(choosing)}")
 
 pass_out_file.close()
